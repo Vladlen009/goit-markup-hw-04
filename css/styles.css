@@ -135,8 +135,8 @@ img{
   letter-spacing: 0.02em;
 
   color: var(--text-color);
-
 }
+
 
 .header-tel {
   font-weight: 500;
@@ -146,6 +146,7 @@ img{
 
   color: var(--text-color);
 }
+
 
 .header-mail:hover,
 .header-mail:focus {
@@ -312,7 +313,7 @@ img{
 }
 
 .content-item {
-  height: 368px;
+  height: 428px;
   width: 270px;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--background-header);
@@ -346,7 +347,34 @@ img{
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+
+  margin-bottom: 16px;
 }
+
+.content-team-list {
+  display: flex;
+  justify-content: center;
+}
+
+.content-team-item + .content-team-item {
+  margin-left: 10px;
+}
+
+.content-team-link {
+  width: 44px;
+  height: 44px;
+  background-color: var(--background-header);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.content-team-link:hover,
+.content-team-link:focus {
+  background-color: var(--color-hover)
+}
+
 
 /*------------Footer--------------*/
 
