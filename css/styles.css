@@ -361,8 +361,6 @@ img{
   margin-left: 10px;
 }
 
-
-
 .content-team-link {
   width: 44px;
   height: 44px;
@@ -390,6 +388,55 @@ img{
   fill: var(--color-title);
 }
 
+/*-----------CLIENT--------------*/
+.client-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+
+  margin-bottom: 50px;
+
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+}
+
+.client-link {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--background-icon);
+
+  background-color: var(--background-header);
+  color: var(--background-icon);
+}
+
+.client-item + .client-item {
+  margin-left: 30px;
+}
+
+.client-icon {
+ fill: currentColor;
+}
+
+.client-link:hover,
+.client-link:focus {
+ /*Рамка должна быть синяя*/
+}
+
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+  fill: var(--color-hover);
+}
 /*------------Footer--------------*/
 
 .footer {
