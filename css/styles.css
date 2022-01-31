@@ -10,6 +10,7 @@
   --footer-color-logo: #FFFFFF;
   --header-boder-color: #ECECEC;
   --border-color:  #EEEEEE;
+  --background-icon: #AFB1B8;
 }
   
 
@@ -360,21 +361,34 @@ img{
   margin-left: 10px;
 }
 
+
+
 .content-team-link {
   width: 44px;
   height: 44px;
-  background-color: var(--background-header);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+
+  background-color: var(--background-header);
+  color: var(--background-icon);
+}
+
+.content-team-icon{
+  fill: currentColor;
 }
 
 .content-team-link:hover,
 .content-team-link:focus {
-  background-color: var(--color-hover)
+  background-color: var(--color-hover);
+  color: var(--color-title);
 }
 
+.content-team-link:hover .content-team-icon,
+.content-team-link:focus .content-team-icon {
+  fill: var(--color-title);
+}
 
 /*------------Footer--------------*/
 
