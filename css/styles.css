@@ -256,13 +256,36 @@ img{
   color: var(--text-color);
 }
 
-
-
 .section-item {
   width: 270px;
   justify-content: center;
 }
 
+.section-image-list {
+  display: flex;
+  justify-content: center;
+}
+
+.section-image-item + .section-image-item {
+  margin-left: 30px;
+}
+
+.section-image-link {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 4px 4px;
+
+
+  background-color: var(--background-header);
+  color: var(--background-icon);
+}
+
+.section-image-icon{
+  fill: currentColor;
+}
 
 /*----WORK---*/
 .work {
