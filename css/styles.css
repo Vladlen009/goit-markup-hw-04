@@ -58,7 +58,6 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /*outline: 2px solid red;*/
 }
 
 img{
@@ -69,7 +68,8 @@ img{
 .header {
   background-color: var(--header-background);
 
-  border: 1px solid var(--header-background);
+  border: 1px solid var(--header-boder-color);
+
 }
 
 .header-container {
