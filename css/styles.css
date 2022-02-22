@@ -522,7 +522,7 @@ img{
 
   color: var(--color-hover);
   
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-item:not(:last-child) {
